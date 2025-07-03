@@ -34,7 +34,7 @@ int lengthofLL(Node* head){
     Node*temp = head;
                                          // just copy the traversal part and here also time complexity is O(n)
     while(temp){
-        cout<<temp->data<<"  ";
+   
         temp = temp->next;
         cnt++;
     }
